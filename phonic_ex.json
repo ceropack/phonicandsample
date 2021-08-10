@@ -1,0 +1,21 @@
+[
+
+
+    {"sound":"an","word":[{"kw":"ban","sample":"banner"},
+                          {"kw":"ants","sample":"ants on my ankle"},
+                          {"kw":"fan","sample":"electric fan"}
+                        ]},
+    {"sound":"at","word":[{"kw":"wat","sample":"drink some water"},
+                          {"kw":"fat","sample":"she is fat"},
+                          {"kw":"hat","sample":"wear a hat on my head"},
+                          {"kw":"rat","sample":"cat chasing the rat"}
+                        ]},
+    {"sound":"ad","word":[{"kw":"had","sample":"i had an ipad"},
+                          {"kw":"mad","sample":"she is mad at you"}
+                        ]},
+    {"sound":"am","word":[{"kw":"am","sample":"i am a girl"},
+                            {"kw":"Sam","sample":"he is Sam"},
+                            {"kw":"ham","sample":"i am eating a ham"}
+                          ]}       
+
+]

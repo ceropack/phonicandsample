@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+ 
+  <%- include('cssstyling') %>
+
+</head>
+<body>
+  <h2><%= name %></h2>
+ 
+
+
+          <% for(var i=0; i<items.length; i++) { %>
+              <h2 class="phonic-learn"><%= items[i].sound %></h2>
+             
+             
+              <% let wordls = items[i] %>
+                <ul>
+                   
+
+                        <%  for(var k=0; k<wordls.word.length; k++) { %>
+                            <li class="phonic-kw">  
+                            <%= wordls.word[k].kw%>  
+                             </li>
+                          
+                            <p class="phonic-tail">
+                            <%= wordls.word[k].sample%>
+                        </p>
+                       
+                
+                          <% } %>
+
+
+                  
+
+                
+
+
+     
+                </ul>            
+           <% } %>
+  
+      
+  
+
+
+
+
+
+<script>
+  $(function(){
+  
+
+    if ('speechSynthesis' in window) {
+
+       $('.phonic-kw').click(function(){
+         var text = $(this).text();
+         var msg = new SpeechSynthesisUtterance();
+         var voicesArr = window.speechSynthesis.getVoices();
+         
+
+         msg.text = text;
+         msg.lang = 'en-US';
+         msg.rate = 0.8;
+         msg.voices = voicesArr[6];
+
+//https://kevin10410.github.io/Javascript30/23%20-%20Speech%20Synthesis/index-START.html         
+//current en-US
+console.log("voicesArr[0]",voicesArr[0].name);
+         console.log("voicesArr[2]",voicesArr[2].name);
+         console.log("voicesArr[5]",voicesArr[5].name);
+         console.log("voicesArr[6]",voicesArr[6].name);
+   
+         speechSynthesis.speak(msg);
+         $(this).css({"font-variant": "large-caps", "font-size": "200%", "color": "red"});
+
+       })
+    
+
+//speack another calss sample
+       $('.phonic-tail').click(function(){
+         var text = $(this).text();
+         var msg = new SpeechSynthesisUtterance();
+         var voicesArr = window.speechSynthesis.getVoices();
+         
+
+         msg.text = text;
+         msg.lang = 'en-US';
+         msg.rate = 0.6;
+         msg.voices = voicesArr[5];
+         console.log("voicesArr[6]",voicesArr[6].name);
+         speechSynthesis.speak(msg);
+    
+       })
+
+
+
+    } else{
+        console.log('NO SOUND')
+
+    }
+    
+    });
+  
+   </script>
+
+</body>
+</html>
+
+
