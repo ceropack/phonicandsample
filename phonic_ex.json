@@ -1,21 +1,21 @@
 [
 
 
-    {"sound":"an","word":[{"kw":"ban","sample":"banner"},
-                          {"kw":"ants","sample":"ants on my ankle"},
-                          {"kw":"fan","sample":"electric fan"}
+    {"sound":"an","word":[{"kw":"ban","sample":"banner","url":"https://cdn.pixabay.com/photo/2016/03/17/06/49/renovation-1262389__340.png"},
+                          {"kw":"ants","sample":"ants on my ankle","url":"https://cdn.pixabay.com/photo/2016/03/17/06/49/renovation-1262389__340.png"},
+                          {"kw":"fan","sample":"electric fan","url":"https://cdn.pixabay.com/photo/2016/03/17/06/49/renovation-1262389__340.png"}
                         ]},
-    {"sound":"at","word":[{"kw":"wat","sample":"drink some water"},
-                          {"kw":"fat","sample":"she is fat"},
-                          {"kw":"hat","sample":"wear a hat on my head"},
-                          {"kw":"rat","sample":"cat chasing the rat"}
+    {"sound":"at","word":[{"kw":"wat","sample":"drink some water","url":"https://cdn.pixabay.com/photo/2016/03/17/06/49/renovation-1262389__340.png"},
+                          {"kw":"fat","sample":"she is fat","url":"https://blog.icons8.com/wp-content/uploads/2020/07/water-texture-drops.jpg"},
+                          {"kw":"hat","sample":"wear a hat on my head","url":"https://blog.icons8.com/wp-content/uploads/2020/07/water-texture-drops.jpg"},
+                          {"kw":"rat","sample":"cat chasing the rat","url":"https://blog.icons8.com/wp-content/uploads/2020/07/water-texture-drops.jpg"}
                         ]},
-    {"sound":"ad","word":[{"kw":"had","sample":"i had an ipad"},
-                          {"kw":"mad","sample":"she is mad at you"}
+    {"sound":"ad","word":[{"kw":"had","sample":"i had an ipad","url":"https://blog.icons8.com/wp-content/uploads/2020/07/water-texture-drops.jpg"},
+                          {"kw":"mad","sample":"she is mad at you","url":"https://blog.icons8.com/wp-content/uploads/2020/07/water-texture-drops.jpg"}
                         ]},
-    {"sound":"am","word":[{"kw":"am","sample":"i am a girl"},
-                            {"kw":"Sam","sample":"he is Sam"},
-                            {"kw":"ham","sample":"i am eating a ham"}
+    {"sound":"am","word":[{"kw":"am","sample":"i am a girl","url":"https://blog.icons8.com/wp-content/uploads/2020/07/water-texture-drops.jpg"},
+                            {"kw":"Sam","sample":"he is Sam","url":"https://blog.icons8.com/wp-content/uploads/2020/07/water-texture-tiny-bubbles.jpg"},
+                            {"kw":"ham","sample":"i am eating a ham","url":"https://blog.icons8.com/wp-content/uploads/2020/07/water-texture-drops.jpg"}
                           ]}       
 
 ]
